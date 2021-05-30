@@ -9,10 +9,10 @@ void evaluarJuego(int matrizJ1[5][5], int matrizJ2[5][5]);
 void imprimirMatriz(int matriz[5][5]);
 // Declarar variables
 int barcosJ1[5][5]= {{ 0, 0, 0, 0, 0 },
-					 { 0, 0, 0, 0, 0 },
-					 { 0, 0, 0, 0, 0 },
-					 { 0, 0, 0, 0, 0 },
-					 { 0, 0, 0, 0, 0 }};
+		     { 0, 0, 0, 0, 0 },
+		     { 0, 0, 0, 0, 0 },
+		     { 0, 0, 0, 0, 0 },
+		     { 0, 0, 0, 0, 0 }};
 int barcosJ2[5][5]= {{ 0, 0, 0, 0, 0 },
                      { 0, 0, 0, 0, 0 },
                      { 0, 0, 0, 0, 0 },
@@ -39,42 +39,42 @@ int main(int argc, char *argv[]) {
 void colocarbarcosJ1() {
 	printf("Coloca tus barcos Jugador 1\n");
 	printf("Coloca las cordenadas de tu Portaavion (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ1[xR][yR] = 1;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ1[x-1][y-1] = 1;
 	printf("Coloca las cordenadas de tu Submarino (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ1[xR][yR] = 1;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ1[x-1][y-1] = 1;
 	printf("Coloca las cordenadas de tu Destructor (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ1[xR][yR] = 1;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ1[x-1][y-1] = 1;
 	printf("Coloca las cordenadas de tu Fragata (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ1[xR][yR] = 1;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ1[x-1][y-1] = 1;
 	printf("Tus barcos Jugador 1\n");
 	imprimirMatriz(barcosJ1);
 }
 void colocarbarcosJ2() {
 	printf("Coloca tus barcos Jugador 2\n");
 	printf("Coloca las cordenadas de tu Portaavion (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ2[xR][yR] = 2;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ2[x-1][y-1] = 2;
 	printf("Coloca las cordenadas de tu Submarino (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ2[xR][yR] = 2;
+	scanf("%i", &x); 
+	scanf("%i", &y);
+	barcosJ2[x-1][y-1] = 2;
 	printf("Coloca las cordenadas de tu Destructor (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ2[xR][yR] = 2;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ2[x-1][y-1] = 2;
 	printf("Coloca las cordenadas de tu Fragata (x,y)\n");
-	scanf("%i", &x); xR = x - 1;
-	scanf("%i", &y); yR = y -1;
-	barcosJ2[xR][yR] = 2;
+	scanf("%i", &x); 
+	scanf("%i", &y); 
+	barcosJ2[x-1][y-1] = 2;
 	printf("Tus barcos Jugador 2\n");
 	imprimirMatriz(barcosJ2);
 }
