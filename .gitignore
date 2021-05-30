@@ -57,7 +57,7 @@ Icon?
 
 # Temp files when opening LibreOffice on ubuntu
 .~lock.*
- 
+.fuse* 
 
 # =========================
 # Windows detritus
