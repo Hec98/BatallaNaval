@@ -10,7 +10,7 @@ _Cada jugador tiene asignada una matiz previamente rellenada con ceros_
 
 -En la función **evaluarJuego()** se cuenta con las variables **ganoJ1** y **ganoJ2** ambas con el valor **true**, en el ciclo for se recorre las 2 motrices y si se encuentran valores diferentes a 0 se cambiara su valor a **false**, cuando una matiz tiene solo 0 se conservara el valor **true** e indicara al ganador del juego._
 
--Están disponibles 2 versiones del juego con las mismas funciones y lógica, solo cambien los tamaños de las matrices y una cuenta con representaciones echas con figuras mediante ascii._
+-Están disponibles 2 versiones del juego con las mismas funciones cambien los tamaños de las matrices y una cuenta con representaciones echas con figuras mediante ascii._
 
 
 ## Despliegue
