@@ -25,3 +25,5 @@ gcc batallaNavalA.c -o batallaNavalA && ./batallaNavalA
 ```
 gcc batallaNavalB.c -o batallaNavalB && ./batallaNavalB
 ```
+
+[![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/Hec98)
